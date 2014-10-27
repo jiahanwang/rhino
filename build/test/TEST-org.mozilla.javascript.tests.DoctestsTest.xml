@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="hanplusplus" name="org.mozilla.javascript.tests.DoctestsTest" skipped="0" tests="195" time="4.08" timestamp="2014-10-27T23:05:58">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="dist.file" value="rhino1_7R5pre.zip" />
+    <property name="dist.source-only-zip" value="rhino1_7R5pre-sources.zip" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+    <property name="TODAY" value="October 27 2014" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.file.testsrc" value="/home/hanplusplus/Coding/Java/rhino/testsrc/build.xml" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="java.runtime.version" value="1.7.0_65-b32" />
+    <property name="xmlbeans" value="." />
+    <property name="coverage.classes.dir" value="/home/hanplusplus/Coding/Java/rhino/build/coverage/classes" />
+    <property name="user.name" value="hanplusplus" />
+    <property name="debug" value="on" />
+    <property name="build.dir" value="build" />
+    <property name="user.language" value="en" />
+    <property name="test.output" value="build/test/output" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+    <property name="ant.project.default-target" value="help" />
+    <property name="test.emma.url" value="http://repo1.maven.org/maven2/emma/emma/2.1.5320/emma-2.1.5320.jar" />
+    <property name="ant.project.name" value="testsrc" />
+    <property name="DSTAMP" value="20141027" />
+    <property name="java.version" value="1.7.0_65" />
+    <property name="classes" value="build/classes" />
+    <property name="version" value="1_7R5pre" />
+    <property name="user.timezone" value="America/Los_Angeles" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="emma.coverage.out.file" value="/home/hanplusplus/Coding/Java/rhino/build/coverage/coverage" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+    <property name="test.emma_ant.url" value="http://repo1.maven.org/maven2/emma/emma_ant/2.1.5320/emma_ant-2.1.5320.jar" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="coverage.instrumentationfile" value="/home/hanplusplus/Coding/Java/rhino/build/coverage/instrumentation" />
+    <property name="dist.name" value="rhino1_7R5pre" />
+    <property name="file.separator" value="/" />
+    <property name="test.library.dir" value="/home/hanplusplus/Coding/Java/rhino/build/tests" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="xmlimplsrc-build-file" value="/home/hanplusplus/Coding/Java/rhino/xmlimplsrc/build.xml" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="US" />
+    <property name="mozilla.js.tests.timeout" value="60000" />
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+    <property name="dist.dir" value="build/rhino1_7R5pre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/home/hanplusplus/Coding/Java/rhino/testsrc/build.xml" />
+    <property name="os.version" value="3.13.0-37-generic" />
+    <property name="source-level" value="1.5" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="24.65-b04" />
+    <property name="test.junit.url" value="http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar" />
+    <property name="implementation.version" value="Rhino 1.7 release 5 PRERELEASE 2014 10 27" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="test.jstests.jar" value="/home/hanplusplus/Coding/Java/rhino/build/tests/src/jstests.jar" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="ant.file.type.Rhino" value="file" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="test.classes" value="build/test/classes" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="ant.file.Rhino" value="/home/hanplusplus/Coding/Java/rhino/build.xml" />
+    <property name="coverage.dir" value="/home/hanplusplus/Coding/Java/rhino/build/coverage" />
+    <property name="user.home" value="/home/hanplusplus" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="name" value="rhino" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="target-jvm" value="1.5" />
+    <property name="mozilla.js.tests" value="/home/hanplusplus/Coding/Java/rhino/build/tests" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="rhino-14.jar" value="js-14.jar" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on April 8 2014" />
+    <property name="java.class.path" value="/home/hanplusplus/Coding/Java/rhino/lib/xbean.jar:/home/hanplusplus/Coding/Java/rhino/lib/jsr173_1.0_api.jar:/home/hanplusplus/Coding/Java/rhino/build/coverage/classes:/home/hanplusplus/Coding/Java/rhino/build/classes:/home/hanplusplus/Coding/Java/rhino/build/test/classes:/home/hanplusplus/Coding/Java/rhino/lib/emma.jar:/home/hanplusplus/Coding/Java/rhino/lib/junit.jar:/home/hanplusplus/Coding/Java/rhino/build/tests/src/jstests.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/home/hanplusplus/Coding/Java/rhino/junittestcases5064708559730755118.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/hanplusplus/Coding/Java/rhino/build/test/IGNORETHIS.xml crashfile=/home/hanplusplus/Coding/Java/rhino/junitvmwatcher3129968041114612067.properties propsfile=/home/hanplusplus/Coding/Java/rhino/junit2885693431881918649.properties" />
+    <property name="small-rhino-14.jar" value="smalljs-14.jar" />
+    <property name="TSTAMP" value="1605" />
+    <property name="test.vm.mx" value="256m" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.awt.headless" value="true" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="implementation.date" value="2014 10 27" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="ant.file.type.testsrc" value="file" />
+    <property name="Name" value="Rhino" />
+    <property name="apiClasses" value="src/org/mozilla/javascript/Callable.java,src/org/mozilla/javascript/ClassCache.java,src/org/mozilla/javascript/ClassShutter.java,src/org/mozilla/javascript/CompilerEnvirons.java,src/org/mozilla/javascript/ContinuationPending.java,src/org/mozilla/javascript/Context.java,src/org/mozilla/javascript/ContextAction.java,src/org/mozilla/javascript/ContextFactory.java,src/org/mozilla/javascript/GeneratedClassLoader.java,src/org/mozilla/javascript/EcmaError.java,src/org/mozilla/javascript/ErrorReporter.java,src/org/mozilla/javascript/EvaluatorException.java,src/org/mozilla/javascript/Function.java,src/org/mozilla/javascript/FunctionObject.java,src/org/mozilla/javascript/GeneratedClassLoader.java,src/org/mozilla/javascript/ImporterTopLevel.java,src/org/mozilla/javascript/JavaScriptException.java,src/org/mozilla/javascript/RefCallable.java,src/org/mozilla/javascript/RhinoException.java,src/org/mozilla/javascript/Script.java,src/org/mozilla/javascript/Scriptable.java,src/org/mozilla/javascript/ScriptableObject.java,src/org/mozilla/javascript/SecurityController.java,src/org/mozilla/javascript/WrapFactory.java,src/org/mozilla/javascript/WrappedException.java,src/org/mozilla/javascript/Wrapper.java,src/org/mozilla/javascript/Synchronizer.java,src/org/mozilla/javascript/optimizer/ClassCompiler.java,src/org/mozilla/javascript/debug/DebuggableScript.java,src/org/mozilla/javascript/serialize/ScriptableInputStream.java,src/org/mozilla/javascript/serialize/ScriptableOutputStream.java" />
+    <property name="small-rhino.jar" value="smalljs.jar" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/hanplusplus/Coding/Java/rhino" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="xmlimplsrc-present?" value="true" />
+    <property name="basedir" value="/home/hanplusplus/Coding/Java/rhino" />
+    <property name="jar-compression" value="true" />
+    <property name="coverage.outfile" value="/home/hanplusplus/Coding/Java/rhino/build/coverage/coverage" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="jsr173.jar" value="./lib/jsr173_1.0_api.jar" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="xbean.jar" value="./lib/xbean.jar" />
+    <property name="test.timeout" value="60000" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="junit-coveragereport" />
+    <property name="rhino.jar" value="js.jar" />
+  </properties>
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[0]" time="0.012" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[1]" time="0.02" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[2]" time="0.019" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[3]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[4]" time="0.011" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[5]" time="0.008" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[6]" time="0.012" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[7]" time="0.019" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[8]" time="0.021" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[9]" time="0.018" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[10]" time="0.063" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[11]" time="0.051" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[12]" time="0.009" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[13]" time="0.012" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[14]" time="0.012" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[15]" time="0.054" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[16]" time="0.011" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[17]" time="0.01" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[18]" time="0.019" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[19]" time="0.034" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[20]" time="0.046" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[21]" time="0.004" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[22]" time="0.015" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[23]" time="0.015" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[24]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[25]" time="0.012" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[26]" time="0.014" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[27]" time="0.018" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[28]" time="0.052" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[29]" time="0.051" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[30]" time="0.008" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[31]" time="0.017" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[32]" time="0.021" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[33]" time="0.014" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[34]" time="0.036" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[35]" time="0.036" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[36]" time="0.004" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[37]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[38]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[39]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[40]" time="0.02" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[41]" time="0.018" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[42]" time="0.017" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[43]" time="0.051" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[44]" time="0.052" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[45]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[46]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[47]" time="0.008" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[48]" time="0.009" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[49]" time="0.034" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[50]" time="0.035" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[51]" time="0.049" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[52]" time="0.093" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[53]" time="0.097" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[54]" time="0.044" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[55]" time="0.12" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[56]" time="0.093" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[57]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[58]" time="0.009" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[59]" time="0.009" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[60]" time="0.013" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[61]" time="0.015" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[62]" time="0.016" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[63]" time="0.013" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[64]" time="0.083" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[65]" time="0.05" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[66]" time="0.004" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[67]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[68]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[69]" time="0.009" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[70]" time="0.023" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[71]" time="0.032" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[72]" time="0.017" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[73]" time="0.022" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[74]" time="0.021" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[75]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[76]" time="0.012" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[77]" time="0.015" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[78]" time="0.019" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[79]" time="0.023" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[80]" time="0.014" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[81]" time="0.007" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[82]" time="0.021" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[83]" time="0.022" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[84]" time="0.018" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[85]" time="0.028" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[86]" time="0.026" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[87]" time="0.001" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[88]" time="0.002" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[89]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[90]" time="0.045" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[91]" time="0.157" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[92]" time="0.181" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[93]" time="0.072" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[94]" time="0.018" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[95]" time="0.014" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[96]" time="0.001" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[97]" time="0.002" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[98]" time="0.002" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[99]" time="0.002" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[100]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[101]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[102]" time="0.047" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[103]" time="0.016" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[104]" time="0.018" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[105]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[106]" time="0.015" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[107]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[108]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[109]" time="0.01" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[110]" time="0.008" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[111]" time="0.011" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[112]" time="0.034" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[113]" time="0.033" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[114]" time="0.001" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[115]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[116]" time="0.004" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[117]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[118]" time="0.009" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[119]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[120]" time="0.002" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[121]" time="0.007" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[122]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[123]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[124]" time="0.015" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[125]" time="0.019" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[126]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[127]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[128]" time="0.013" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[129]" time="0.004" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[130]" time="0.014" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[131]" time="0.008" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[132]" time="0.013" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[133]" time="0.072" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[134]" time="0.071" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[135]" time="0.01" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[136]" time="0.043" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[137]" time="0.041" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[138]" time="0.004" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[139]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[140]" time="0.004" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[141]" time="0.008" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[142]" time="0.023" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[143]" time="0.024" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[144]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[145]" time="0.019" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[146]" time="0.017" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[147]" time="0.001" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[148]" time="0.007" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[149]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[150]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[151]" time="0.013" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[152]" time="0.015" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[153]" time="0.004" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[154]" time="0.008" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[155]" time="0.009" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[156]" time="0.008" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[157]" time="0.015" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[158]" time="0.012" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[159]" time="0.002" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[160]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[161]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[162]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[163]" time="0.011" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[164]" time="0.009" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[165]" time="0.003" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[166]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[167]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[168]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[169]" time="0.012" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[170]" time="0.014" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[171]" time="0.004" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[172]" time="0.029" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[173]" time="0.013" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[174]" time="0.011" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[175]" time="0.032" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[176]" time="0.033" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[177]" time="0.006" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[178]" time="0.01" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[179]" time="0.009" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[180]" time="0.005" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[181]" time="0.016" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[182]" time="0.018" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[183]" time="0.021" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[184]" time="0.027" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[185]" time="0.024" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[186]" time="0.012" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[187]" time="0.017" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[188]" time="0.017" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[189]" time="0.004" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[190]" time="0.02" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[191]" time="0.024" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[192]" time="0.01" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[193]" time="0.034" />
+  <testcase classname="org.mozilla.javascript.tests.DoctestsTest" name="runDoctest[194]" time="0.03" />
+  <system-out><![CDATA[eval.doctest(-1): 9 passed.
+eval.doctest(0): 9 passed.
+eval.doctest(9): 9 passed.
+434041.doctest(-1): 6 passed.
+434041.doctest(0): 6 passed.
+434041.doctest(9): 6 passed.
+date.parse.doctest(-1): 10 passed.
+date.parse.doctest(0): 10 passed.
+date.parse.doctest(9): 10 passed.
+array.sparse.doctest(-1): 36 passed.
+array.sparse.doctest(0): 36 passed.
+array.sparse.doctest(9): 36 passed.
+467396.doctest(-1): 8 passed.
+467396.doctest(0): 8 passed.
+467396.doctest(9): 8 passed.
+477233.doctest(-1): 3 passed.
+477233.doctest(0): 3 passed.
+477233.doctest(9): 3 passed.
+object.extensible.doctest(-1): 16 passed.
+object.extensible.doctest(0): 16 passed.
+object.extensible.doctest(9): 16 passed.
+array.length.doctest(-1): 8 passed.
+array.length.doctest(0): 8 passed.
+array.length.doctest(9): 8 passed.
+Counter.doctest(-1): 7 passed.
+Counter.doctest(0): 7 passed.
+Counter.doctest(9): 7 passed.
+object.getownpropertynames.doctest(-1): 27 passed.
+object.getownpropertynames.doctest(0): 27 passed.
+object.getownpropertynames.doctest(9): 27 passed.
+object.getprototypeof.doctest(-1): 7 passed.
+object.getprototypeof.doctest(0): 7 passed.
+object.getprototypeof.doctest(9): 7 passed.
+object.keys.doctest(-1): 27 passed.
+object.keys.doctest(0): 27 passed.
+object.keys.doctest(9): 27 passed.
+433878.doctest(-1): 4 passed.
+433878.doctest(0): 4 passed.
+433878.doctest(9): 4 passed.
+object.issealed.doctest(-1): 13 passed.
+object.issealed.doctest(0): 13 passed.
+object.issealed.doctest(9): 13 passed.
+object.getownpropertydescriptor.doctest(-1): 34 passed.
+object.getownpropertydescriptor.doctest(0): 34 passed.
+object.getownpropertydescriptor.doctest(9): 34 passed.
+773573.doctest(-1): 2 passed.
+773573.doctest(0): 2 passed.
+773573.doctest(9): 2 passed.
+object.freeze.doctest(-1): 19 passed.
+object.freeze.doctest(0): 19 passed.
+object.freeze.doctest(9): 19 passed.
+javaadapter.doctest(-1): 48 passed.
+javaadapter.doctest(0): 48 passed.
+javaadapter.doctest(9): 48 passed.
+784358.doctest(-1): 46 passed.
+784358.doctest(0): 46 passed.
+784358.doctest(9): 46 passed.
+iteratorKeys.doctest(-1): 4 passed.
+iteratorKeys.doctest(0): 4 passed.
+iteratorKeys.doctest(9): 4 passed.
+serialize.doctest(-1): 6 passed.
+serialize.doctest(0): 6 passed.
+serialize.doctest(9): 6 passed.
+regexp.source.doctest(-1): 44 passed.
+regexp.source.doctest(0): 44 passed.
+regexp.source.doctest(9): 44 passed.
+tail-call-in-try.doctest(-1): 3 passed.
+tail-call-in-try.doctest(0): 3 passed.
+tail-call-in-try.doctest(9): 3 passed.
+arrays.doctest(-1): 20 passed.
+arrays.doctest(0): 20 passed.
+arrays.doctest(9): 20 passed.
+controlchars.doctest(-1): 8 passed.
+controlchars.doctest(0): 8 passed.
+controlchars.doctest(9): 8 passed.
+canonicalize.doctest(-1): 8 passed.
+canonicalize.doctest(0): 8 passed.
+canonicalize.doctest(9): 8 passed.
+string.trim.doctest(-1): 7 passed.
+string.trim.doctest(0): 7 passed.
+string.trim.doctest(9): 7 passed.
+error.tostring.doctest(-1): 14 passed.
+error.tostring.doctest(0): 14 passed.
+error.tostring.doctest(9): 14 passed.
+function.bind.doctest(-1): 26 passed.
+function.bind.doctest(0): 26 passed.
+function.bind.doctest(9): 26 passed.
+700651.doctest(-1): 2 passed.
+700651.doctest(0): 2 passed.
+700651.doctest(9): 2 passed.
+object.defineproperty.doctest(-1): 108 passed.
+object.defineproperty.doctest(0): 108 passed.
+object.defineproperty.doctest(9): 108 passed.
+regexp.class-overflow.doctest(-1): 1 passed.
+regexp.class-overflow.doctest(0): 1 passed.
+regexp.class-overflow.doctest(9): 1 passed.
+429121.doctest(-1): 1 passed.
+429121.doctest(0): 1 passed.
+429121.doctest(9): 1 passed.
+423557.doctest(-1): 6 passed.
+423557.doctest(0): 6 passed.
+423557.doctest(9): 6 passed.
+442922.doctest(-1): 4 passed.
+442922.doctest(0): 4 passed.
+442922.doctest(9): 4 passed.
+json.doctest(-1): 3 passed.
+json.doctest(0): 3 passed.
+json.doctest(9): 3 passed.
+Matrix.doctest(-1): 9 passed.
+Matrix.doctest(0): 9 passed.
+Matrix.doctest(9): 9 passed.
+arguments.doctest(-1): 29 passed.
+arguments.doctest(0): 29 passed.
+arguments.doctest(9): 29 passed.
+368019.doctest(-1): 4 passed.
+368019.doctest(0): 4 passed.
+368019.doctest(9): 4 passed.
+441417.doctest(-1): 3 passed.
+441417.doctest(0): 3 passed.
+441417.doctest(9): 3 passed.
+parseint.doctest(-1): 9 passed.
+parseint.doctest(0): 9 passed.
+parseint.doctest(9): 9 passed.
+with.doctest(-1): 11 passed.
+with.doctest(0): 11 passed.
+with.doctest(9): 11 passed.
+439530.doctest(-1): 2 passed.
+439530.doctest(0): 2 passed.
+439530.doctest(9): 2 passed.
+test2.doctest(-1): 9 passed.
+test2.doctest(0): 9 passed.
+test2.doctest(9): 9 passed.
+array.dense.doctest(-1): 36 passed.
+array.dense.doctest(0): 36 passed.
+array.dense.doctest(9): 36 passed.
+object.defineproperties.doctest(-1): 21 passed.
+object.defineproperties.doctest(0): 21 passed.
+object.defineproperties.doctest(9): 21 passed.
+regexp.literals.doctest(-1): 2 passed.
+regexp.literals.doctest(0): 2 passed.
+regexp.literals.doctest(9): 2 passed.
+object.isfrozen.doctest(-1): 19 passed.
+object.isfrozen.doctest(0): 19 passed.
+object.isfrozen.doctest(9): 19 passed.
+expressionclosure.doctest(-1): 12 passed.
+expressionclosure.doctest(0): 12 passed.
+expressionclosure.doctest(9): 12 passed.
+623246.doctest(-1): 6 passed.
+623246.doctest(0): 6 passed.
+623246.doctest(9): 6 passed.
+object.seal.doctest(-1): 12 passed.
+object.seal.doctest(0): 12 passed.
+object.seal.doctest(9): 12 passed.
+473761.doctest(-1): 5 passed.
+473761.doctest(0): 5 passed.
+473761.doctest(9): 5 passed.
+number.tostring.doctest(-1): 18 passed.
+number.tostring.doctest(0): 18 passed.
+number.tostring.doctest(9): 18 passed.
+393794.doctest(-1): 3 passed.
+393794.doctest(0): 3 passed.
+393794.doctest(9): 3 passed.
+whitespace.doctest(-1): 10 passed.
+whitespace.doctest(0): 10 passed.
+whitespace.doctest(9): 10 passed.
+480758.doctest(-1): 6 passed.
+480758.doctest(0): 6 passed.
+480758.doctest(9): 6 passed.
+date.tojson.doctest(-1): 10 passed.
+date.tojson.doctest(0): 10 passed.
+date.tojson.doctest(9): 10 passed.
+369860.doctest(-1): 7 passed.
+369860.doctest(0): 7 passed.
+369860.doctest(9): 7 passed.
+object.create.doctest(-1): 19 passed.
+object.create.doctest(0): 19 passed.
+object.create.doctest(9): 19 passed.
+iterable.doctest(-1): 4 passed.
+iterable.doctest(0): 4 passed.
+iterable.doctest(9): 4 passed.
+array.isarray.doctest(-1): 12 passed.
+array.isarray.doctest(0): 12 passed.
+array.isarray.doctest(9): 12 passed.
+524931.doctest(-1): 12 passed.
+524931.doctest(0): 12 passed.
+524931.doctest(9): 12 passed.
+xmlOptions.doctest(-1): 7 passed.
+xmlOptions.doctest(0): 7 passed.
+xmlOptions.doctest(9): 7 passed.
+date.toisostring.doctest(-1): 15 passed.
+date.toisostring.doctest(0): 15 passed.
+date.toisostring.doctest(9): 15 passed.
+413838.doctest(-1): 20 passed.
+413838.doctest(0): 20 passed.
+413838.doctest(9): 20 passed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
